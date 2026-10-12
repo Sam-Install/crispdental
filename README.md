@@ -1,16 +1,94 @@
-# React + Vite
+# CrispDental Clinic
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, mobile-responsive website for a dental clinic, built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+>  **Status: still in building.** New pages and sections are being added, so some links and content are placeholders for now.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live preview
 
-## React Compiler
+ **[crispdental.vercel.app](https://crispdental.vercel.app)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Responsive navbar with a mobile hamburger menu and active-page highlighting
+- Hero section with a call to action and client social proof
+- "Why clients trust us" section
+- Step-by-step guide to getting our services, from booking to leaving the clinic
+- FAQ accordion
+- Services preview with a link to the full services page
+- Team preview with a link to the full team page
+- Client reviews
+- Footer with quick links, resources, and contact details
+- Accessible by design: keyboard focus styles, ARIA labels, and good color contrast
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech stack
+
+- [React](https://react.dev/)
+- [React Router DOM](https://reactrouter.com/) for page navigation
+- [Tailwind CSS](https://tailwindcss.com/) for styling
+- [React Icons](https://react-icons.github.io/react-icons/) for icons
+- [Vercel](https://vercel.com/) for hosting
+
+## Pages
+
+| Route       | Page                  | Status      |
+| ----------- | --------------------- | ----------- |
+| `/`         | Home                  | In progress |
+| `/services` | Services              | In progress |
+| `/team`     | Our team              | In progress |
+| `/blog`     | Blog                  | In progress |
+| `/about`    | About us              | Planned     |
+| `/contact`  | Contact / book a visit | Planned     |
+
+## Getting started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) 18 or newer
+- npm (comes with Node.js)
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/<your-username>/<your-repo-name>.git
+
+# Move into the project folder
+cd <your-repo-name>
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+Then open the local address shown in your terminal (usually `http://localhost:5173`).
+
+### Build for production
+
+```bash
+npm run build
+```
+
+## Project structure
+
+```
+src/
+├── component/    # Reusable sections (Navbar, Hero, Footer, and more)
+├── pages/        # Route pages (Home, Services, OurTeam, Blog)
+├── App.jsx       # Routes and layout
+└── main.jsx      # App entry point
+```
+
+## Roadmap
+
+- [ ] Finish the Services, Our team, and Blog pages
+- [ ] Add the About us and Contact pages
+- [ ] Add an online appointment booking form
+- [ ] Add insurance information, privacy policy, and terms pages
+- [ ] Replace placeholder images and copy with real content
+
+## Author
+
+Built by Devsam.
