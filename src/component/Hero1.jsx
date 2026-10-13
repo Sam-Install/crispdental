@@ -11,8 +11,7 @@ const Hero1 = () => {
   return (
     <section className="bg-white">
       <div className="mx-auto grid max-w-7xl items-center gap-10 px-4 py-12 sm:px-6 md:grid-cols-2 md:gap-12 md:py-16 lg:gap-16 lg:px-8 lg:py-24">
-        {/* Left: image */}
-
+    
 
   <div className="text-center md:text-left">
           <h1 className="text-4xl font-bold leading-tight text-black sm:text-5xl lg:text-6xl">
@@ -31,7 +30,7 @@ const Hero1 = () => {
 
           <div className="mt-8">
             <a
-              href="#contact"
+              href="contact"
               className="inline-block rounded-full bg-teal-600 px-8 py-3.5 text-base font-semibold text-white transition-colors hover:bg-teal-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2"
             >
               Book appointment
@@ -58,8 +57,7 @@ const Hero1 = () => {
         </div>
 
 
-        
-        {/* Right: content */}
+
 
 
 

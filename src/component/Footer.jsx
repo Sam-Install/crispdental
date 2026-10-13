@@ -17,8 +17,8 @@ const resources = [
   { label: "Terms of service", to: "/terms" },
 ];
 
-// Update these with your real details
-const phone = "+234 800 000 0000";
+
+const phone = "+254 800 000 0000";
 const email = "hello@crispdental.com";
 
 const linkClass =
@@ -48,7 +48,7 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Quick links */}
+
           <nav aria-label="Quick links">
             <h3 className="text-base font-semibold text-white">Quick links</h3>
             <ul className="mt-4 space-y-3 text-sm">
@@ -62,7 +62,7 @@ const Footer = () => {
             </ul>
           </nav>
 
-          {/* Resources */}
+    
           <nav aria-label="Resources">
             <h3 className="text-base font-semibold text-white">Resources</h3>
             <ul className="mt-4 space-y-3 text-sm">
@@ -76,7 +76,7 @@ const Footer = () => {
             </ul>
           </nav>
 
-          {/* Contact */}
+          
           <div>
             <h3 className="text-base font-semibold text-white">Contact</h3>
             <ul className="mt-4 space-y-3 text-sm">
@@ -110,7 +110,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom bar */}
+        
         <div className="mt-12 border-t border-gray-700 pt-6 text-center text-sm text-gray-400 sm:text-left">
           © {new Date().getFullYear()} CrispDental Clinic. All rights reserved.
         </div>
